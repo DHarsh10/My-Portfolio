@@ -5,10 +5,35 @@ html{
 }
 
 body {
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Public Sans', sans-serif;
     margin: 0;
+    
 }
+
+.bk {
+    width: 100%;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.7)50%, rgba(255, 255, 255, 0.7)50% ), url(./imagesPortfolio/background_image.png);
+    background-repeat: repeat-y;
+    background-position-x: right;
+    background-size: 100%;
+}
+
+
+
+/* .bk::before {
+    content: "";
+    background-image: url(./imagesPortfolio/Blog\ Dev\ Unsplash.svg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+} */
 
 :root {
     --primaryColor: #A855F7;
@@ -45,7 +70,7 @@ body {
     margin: 1rem;
 }
 
-.link1{
+.link2{
     border: 2px solid var(--primaryColor);
     background-color: var(--offWhiteColor);
     color: var(--primaryColor);
@@ -57,17 +82,18 @@ body {
     font-weight: 600;
 }
 
-.link1:hover {
+.link2:hover {
     transition: 0.5s;
     background-color: black;
+    color: #E9D5FF;
 }
 
 
 
 
 
-.link2{
-    border: 2px solid var(--offWhiteColor);
+.link1{
+    border: 2px solid black;
     border-radius: 6px;
     padding: 3px;
     margin: 5%;
@@ -78,9 +104,11 @@ body {
 }
 
 
-.link2:hover {
+.link1:hover {
     transition: 0.5s;
     background-color: black;
+    border-color: var(--primaryColor);
+    color: #E9D5FF;
 }
 
 
@@ -167,7 +195,7 @@ body {
 
 .offWhiteSec{
     padding: 1rem;
-    background-color: var(--offWhiteColor);
+    background-color: #E8E8E8;
     margin: 0;
 }
 
@@ -261,3 +289,6 @@ body {
 .prj1 {
     margin: 5px ; 
 }
+
+
+
