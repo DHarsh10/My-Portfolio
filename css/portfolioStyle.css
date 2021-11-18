@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Public+Sans:wght@200&display=swap');
+
+html{
+    height: 100%;
+}
+
+body {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    margin: 0;
+    
+}
+
+.bk {
+    width: 100%;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.7)50%, rgba(255, 255, 255, 0.7)50% ), url("../imagesPortfolio/background_image.png");
+    background-repeat: repeat-y;
+    background-position-x: right;
+    background-size: 100%;
+}
+
+
+
+/* .bk::before {
+    content: "";
+    background-image: url(./imagesPortfolio/Blog\ Dev\ Unsplash.svg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+} */
+
+:root {
+    --primaryColor: #A855F7;
+    --offWhiteColor: #E9D5FF;
+}
+
+.main{
+    margin: 0;
+    padding: 0.5rem 0 0 0;
+}
+
+/* main header */
+
+.heading{
+    text-align: center;
+}
+
+
+/* container */
+
+.contHeader{
+    text-align: center;
+}
+
+.centerContainer{
+    margin: auto;
+    max-width: 80%;
+    padding: 1rem;
+}
+
+/* links */
+
+.links{
+    margin: 1rem;
+}
+
+.link2{
+    border: 2px solid var(--primaryColor);
+    background-color: var(--offWhiteColor);
+    color: var(--primaryColor);
+    border-radius: 6px;
+    padding: 3px;
+    margin: 5%;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.link2:hover {
+    transition: 0.5s;
+    background-color: black;
+    color: #E9D5FF;
+}
+
+
+
+
+
+.link1{
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 3px;
+    margin: 5%;
+    text-decoration: none;
+    color: var(--primaryColor);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.link1:hover {
+    transition: 0.5s;
+    background-color: black;
+    border-color: var(--primaryColor);
+    color: #E9D5FF;
+}
+
+
+
+
+
+
+/* lists */
+
+/* navigation */
+
+.nav{
+    background-color: var(--primaryColor);
+    border-bottom-right-radius: 2rem;
+}
+
+.navHead{
+    padding: 0.5rem;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+}
+
+.navBtn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+.nav1{
+    text-decoration: none;
+    margin: 0 5% 2% 0;
+    padding: 0 0.5% 0 0.5% ;
+    color: white;
+    font-weight: 900;
+}
+
+.nav1:hover{
+    transition: 0.08s;
+    transform: scale(1.3);
+    background-clip: unset;
+}
+
+.nav1:active{
+    transition: 0.1s;
+    transform: scale(0.6);
+}
+
+
+
+/* header */
+
+.header{
+    display: block;
+    text-align: center;
+}
+
+.welcomeImg{
+    margin: 1rem 0 0 0;
+    max-width: 200px;
+    padding: 1rem;
+}
+
+.dev{
+    color: var(--primaryColor);
+}
+
+.devHead{
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+/* section */
+
+.section{
+    text-align: center;
+}
+
+.whiteSec{
+    padding: 1rem;
+}
+
+.offWhiteSec{
+    padding: 1rem;
+    background-color: #E8E8E8;
+    margin: 0;
+}
+
+.resume {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.a {
+    margin: 1rem 1rem 2rem 1rem;
+}
+
+.resumeLink{
+    margin: 1rem;
+    
+}
+
+.resumeImg {
+    max-width: 150px;
+}
+
+.resumeText {
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+
+/* footer */
+
+.footer{
+    background-color: var(--primaryColor);
+    font-weight: 700;
+    border-top-right-radius: 2rem;
+}
+
+.footerHead{
+    padding: 0.5rem;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+}
+
+.sMediaLink{
+    margin: 1% 3% 1% 3%;
+}
+
+.sMedia{
+    margin: 1% 3% 1% 3%;
+    max-width: 30px;
+}
+
+.sMedia:hover{
+    transition: 0.2s;
+    transform: scale(1.3);
+    background-clip: unset;
+}
+
+.sMedia:active{
+    transition: 0.1s;
+    transform: scale(0.6);
+}
+
+.copyRight{
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
+/* blogs */
+
+.blogHeading {
+    margin: 4rem;
+
+}
+
+.blogHeadbgclr {
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+.blogDate {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.prj1 {
+    margin: 5px ; 
+}
+
+
+
